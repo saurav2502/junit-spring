@@ -1,0 +1,14 @@
+server:
+  port: 8084
+  address: localhost
+
+spring:
+  application:
+    name: app_JunitTest
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sys?allowMultiQueries=true
+    password: Admin@123
+    username: dbAdmin
+  profiles:
+    active: dev
