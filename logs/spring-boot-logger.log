@@ -36,3 +36,6 @@
 2020-02-13 00:04:15,448 TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-127.0.0.1-8084-exec-6] <==        Row: 34534634, Back, back
 2020-02-13 00:04:15,448 TRACE org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-127.0.0.1-8084-exec-6] <==        Row: 34544345, To, to
 2020-02-13 00:04:15,448 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-127.0.0.1-8084-exec-6] <==      Total: 5
+2020-02-13 00:09:29,462 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-13 00:09:29,462 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-02-13 00:09:29,478 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
