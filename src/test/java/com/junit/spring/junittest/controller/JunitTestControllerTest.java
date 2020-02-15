@@ -40,7 +40,7 @@ public class JunitTestControllerTest extends ApplicationTests {
     @Test
     public void createUserTest()throws Exception{
         UserModel model = new UserModel();
-        model.setUserId(765659);
+        model.setUserId(76777);
         model.setUserName("Doing Any");
         model.setUserPassword("Offcource doing");
         ObjectMapper objectMapper = new ObjectMapper();
